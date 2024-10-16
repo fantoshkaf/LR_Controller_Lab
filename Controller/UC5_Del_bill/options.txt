@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Anton\Documents\VuGen\Scripts\UC5_Del_bill
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\anton\documents\vugen\scripts\uc5_del_bill\\logfile.log
+c:\users\anton\documents\vugen\scripts\uc5_del_bill\\combined_UC5_Del_bill.c
+c:\users\anton\documents\vugen\scripts\uc5_del_bill\\pre_cci.c
