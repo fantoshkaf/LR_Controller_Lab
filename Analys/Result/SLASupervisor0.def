@@ -1,5 +1,16 @@
 ﻿[SLASupervisor_BasicInfo]
-NumFilters=0
+NumFilters=1
+
+[AdditionalFilter0]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=45.000000
+Dim_1=1245.000000
 
 [DimensionFunctions]
 DimeFuncCount=1
