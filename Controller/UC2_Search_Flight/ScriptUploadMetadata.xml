@@ -24,18 +24,31 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0HL.121.log" Filter="1" />
+    <FileEntry Name="mdrv2QW.729.log" Filter="1" />
     <FileEntry Name="mdrva6e.301.log" Filter="1" />
+    <FileEntry Name="mdrvahW.729.log" Filter="1" />
     <FileEntry Name="mdrvAQf.997.log" Filter="1" />
+    <FileEntry Name="mdrvB0h.803.log" Filter="1" />
+    <FileEntry Name="mdrvB3Z.959.log" Filter="1" />
+    <FileEntry Name="mdrvbBZ.629.log" Filter="1" />
     <FileEntry Name="mdrvbrX.13.log" Filter="1" />
     <FileEntry Name="mdrvc7F.191.log" Filter="1" />
     <FileEntry Name="mdrvceH.3.log" Filter="1" />
+    <FileEntry Name="mdrveJy.229.log" Filter="1" />
     <FileEntry Name="mdrvf9K.171.log" Filter="1" />
     <FileEntry Name="mdrvFBD.737.log" Filter="1" />
+    <FileEntry Name="mdrvg0f.219.log" Filter="1" />
     <FileEntry Name="mdrvmKv.217.log" Filter="1" />
     <FileEntry Name="mdrvnvL.829.log" Filter="1" />
+    <FileEntry Name="mdrvO8V.889.log" Filter="1" />
+    <FileEntry Name="mdrvoTo.825.log" Filter="1" />
     <FileEntry Name="mdrvRps.977.log" Filter="1" />
     <FileEntry Name="mdrvwOI.385.log" Filter="1" />
+    <FileEntry Name="mdrvwpT.767.log" Filter="1" />
     <FileEntry Name="mdrvys1.465.log" Filter="1" />
+    <FileEntry Name="mdrvyu6.465.log" Filter="1" />
+    <FileEntry Name="mdrvZ9P.115.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

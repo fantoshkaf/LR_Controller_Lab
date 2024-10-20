@@ -54,7 +54,7 @@ Action()
 
 
 	lr_end_transaction("open_web_tours",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(10);
 
 	lr_start_transaction("click_Signup");
 	web_reg_find("Text=First time registering? Please complete the form below.",LAST);
@@ -68,7 +68,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("click_Signup",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(10);
 	lr_start_transaction("send_reg_Info");
 
 	web_add_header("Origin", 
@@ -90,7 +90,7 @@ Action()
 
 	lr_end_transaction("send_reg_Info",LR_AUTO);
 
-		lr_think_time(4);
+		lr_think_time(10);
 
 	lr_start_transaction("login_aft_reg");
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",LAST);

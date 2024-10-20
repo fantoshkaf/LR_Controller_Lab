@@ -21,12 +21,30 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0GR.193.log" Filter="1" />
+    <FileEntry Name="mdrv8I8.445.log" Filter="1" />
+    <FileEntry Name="mdrvAd6.241.log" Filter="1" />
+    <FileEntry Name="mdrvAP4.621.log" Filter="1" />
     <FileEntry Name="mdrvcCW.573.log" Filter="1" />
     <FileEntry Name="mdrvD6k.935.log" Filter="1" />
+    <FileEntry Name="mdrvGIm.483.log" Filter="1" />
     <FileEntry Name="mdrvGyh.711.log" Filter="1" />
+    <FileEntry Name="mdrvKDB.595.log" Filter="1" />
+    <FileEntry Name="mdrvmkN.35.log" Filter="1" />
+    <FileEntry Name="mdrvNGx.673.log" Filter="1" />
+    <FileEntry Name="mdrvNim.621.log" Filter="1" />
     <FileEntry Name="mdrvoc4.61.log" Filter="1" />
+    <FileEntry Name="mdrvOnQ.855.log" Filter="1" />
+    <FileEntry Name="mdrvPt8.989.log" Filter="1" />
+    <FileEntry Name="mdrvq1a.859.log" Filter="1" />
+    <FileEntry Name="mdrvRWt.357.log" Filter="1" />
     <FileEntry Name="mdrvsDS.509.log" Filter="1" />
+    <FileEntry Name="mdrvuNw.641.log" Filter="1" />
+    <FileEntry Name="mdrvuql.307.log" Filter="1" />
+    <FileEntry Name="mdrvvvw.777.log" Filter="1" />
     <FileEntry Name="mdrvWru.893.log" Filter="1" />
+    <FileEntry Name="mdrvyD1.661.log" Filter="1" />
+    <FileEntry Name="mdrvZ8y.401.log" Filter="1" />
     <FileEntry Name="mdrvzgB.321.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

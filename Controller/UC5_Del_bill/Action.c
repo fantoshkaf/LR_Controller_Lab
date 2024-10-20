@@ -22,7 +22,7 @@ Action()
         LAST);
 
     lr_end_transaction("open_web_tours", LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(6);
     lr_start_transaction("login");
 
     web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.", LAST);
@@ -56,7 +56,7 @@ Action()
 
 	lr_end_transaction("open_bills",LR_AUTO);
 
-		lr_think_time(5);
+		lr_think_time(6);
 
     lr_start_transaction("del_sel");
 
@@ -104,7 +104,7 @@ Action()
     LAST);
 
     lr_end_transaction("del_sel", LR_AUTO);
-    		lr_think_time(5); 
+    		lr_think_time(6); 
 	lr_start_transaction("logout");
 	web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 	web_url("welcome.pl_2", 

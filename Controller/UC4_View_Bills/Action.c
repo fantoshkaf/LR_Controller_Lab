@@ -25,7 +25,7 @@ Action()
 
 
 	lr_end_transaction("open_web_tours",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(13);
 	lr_start_transaction("login");
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",LAST);
 	web_add_header("Origin", 
@@ -43,7 +43,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(12);
 	lr_start_transaction("open_bills");
 
 	web_reg_find("Text=<b>Itinerary</font></b>",
@@ -60,7 +60,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("open_bills",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(12);
 
 
 	lr_start_transaction("logout");

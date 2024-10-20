@@ -27,7 +27,7 @@ Action()
 	lr_end_transaction("open_web_tours",LR_AUTO);
 
 	lr_start_transaction("login");
-		lr_think_time(5);
+		lr_think_time(6);
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",LAST);
 	web_add_header("Origin", 
 		"http://localhost:1080");
@@ -44,7 +44,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(6);
 
 
 	lr_start_transaction("open_flights");

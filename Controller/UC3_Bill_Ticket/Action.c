@@ -25,7 +25,7 @@ Action()
 
 
 	lr_end_transaction("open_web_tours",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(6);
 	lr_start_transaction("login");
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",LAST);
 	web_add_header("Origin", 
@@ -43,7 +43,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(6);
 
 
 	lr_start_transaction("open_flights");
@@ -61,7 +61,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("open_flights",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(6);
 	lr_start_transaction("search_flights");
 	web_reg_save_param_ex(
 		"ParamName=outboundFlight",
@@ -93,7 +93,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("search_flights",LR_AUTO);
-		lr_think_time(5);
+		lr_think_time(6);
 
 	lr_start_transaction("select_flight");
 
@@ -115,7 +115,7 @@ web_submit_form("reservations.pl_2",
 	
 	lr_end_transaction("select_flight",LR_AUTO);
 
-		lr_think_time(5);
+		lr_think_time(6);
 
 	lr_start_transaction("pay");
  
