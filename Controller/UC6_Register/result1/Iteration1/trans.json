@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "open_web_tours",
+        "rawStartTime": 1728999481506,
+        "rawEndTime": 1728999481740
+    },
+    {
+        "transactionName": "click_Signup",
+        "rawStartTime": 1728999486772,
+        "rawEndTime": 1728999486881
+    },
+    {
+        "transactionName": "send_reg_Info",
+        "rawStartTime": 1728999491916,
+        "rawEndTime": 1728999492025
+    },
+    {
+        "transactionName": "login_aft_reg",
+        "rawStartTime": 1728999497072,
+        "rawEndTime": 1728999497259
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1728999497275,
+        "rawEndTime": 1728999497384
+    },
+    {
+        "transactionName": "UC6_Register",
+        "rawStartTime": 1728999481460,
+        "rawEndTime": 1728999497400
+    }
+]
