@@ -1,3 +1,0 @@
-"username=DmQNhnqXTizPG1QU&password=drY2Jto2gZ17gUVa&passwordConfirm=drY2Jto2gZ17gUVa&firstName"
-"=S5dJ8pPuyCSi0vPp&lastName=BPSElEXBoeTrhd7k&address1=6E3A3zYMWY67EniJhIHg0FvTnnnAKK&address2=%"
-"7Baddress%7D&register.x=51&register.y=4"

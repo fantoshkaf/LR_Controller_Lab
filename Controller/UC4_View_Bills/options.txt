@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Anton\Documents\VuGen\Scripts\UC4_View_Bills
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\anton\documents\vugen\scripts\uc4_view_bills\\logfile.log
-c:\users\anton\documents\vugen\scripts\uc4_view_bills\\combined_UC4_View_Bills.c
-c:\users\anton\documents\vugen\scripts\uc4_view_bills\\pre_cci.c
