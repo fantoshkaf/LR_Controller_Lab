@@ -54,7 +54,7 @@ Action()
 
 
 	lr_end_transaction("open_web_tours",LR_AUTO);
-		lr_think_time(6);
+		lr_think_time(5);
 
 	lr_start_transaction("click_Signup");
 	web_reg_find("Text=First time registering? Please complete the form below.",LAST);
@@ -68,7 +68,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("click_Signup",LR_AUTO);
-		lr_think_time(6);
+		lr_think_time(4);
 	lr_start_transaction("send_reg_Info");
 
 	web_add_header("Origin", 
@@ -90,7 +90,7 @@ Action()
 
 	lr_end_transaction("send_reg_Info",LR_AUTO);
 
-		lr_think_time(6);
+		lr_think_time(4);
 
 	lr_start_transaction("login_aft_reg");
 	web_reg_find("Text=Welcome, <b>{login}</b>, to the Web Tours reservation pages.",LAST);
@@ -100,7 +100,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("login_aft_reg",LR_AUTO);
-		/*lr_think_time(5); закомментировано для соответствия профилю
+		lr_think_time(5); 
 
 
 	lr_start_transaction("logout"); 
@@ -110,7 +110,7 @@ Action()
 		"Snapshot=t4.inf", 
 		LAST);
 
-	lr_end_transaction("logout",LR_AUTO);*/
+	lr_end_transaction("logout",LR_AUTO);
 	lr_end_transaction("UC6_Register",LR_AUTO);
 
 	return 0;

@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC6_Register__*delimiter*__open_web_tours__*delimiter*__click_Signup__*delimiter*__send_reg_Info__*delimiter*__login_aft_reg"
+Order="UC6_Register__*delimiter*__open_web_tours__*delimiter*__click_Signup__*delimiter*__send_reg_Info__*delimiter*__login_aft_reg__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -63,5 +63,6 @@ open_web_tours=
 click_Signup=
 send_reg_Info=
 login_aft_reg=
+logout=
 [ManuallyExtraFiles]
 randString.c=
