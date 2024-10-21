@@ -1,7 +1,37 @@
 ﻿[SLASupervisor_BasicInfo]
-NumFilters=1
+NumFilters=2
 
 [AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=19
+UseEscapeSequence=1
+DimCount=19
+Dim_0=Action_Transaction
+Dim_1=click_Signup
+Dim_2=del_sel
+Dim_3=login
+Dim_4=login_aft_reg
+Dim_5=logout
+Dim_6=open_bills
+Dim_7=open_flights
+Dim_8=open_web_tours
+Dim_9=pay
+Dim_10=search_flights
+Dim_11=select_flight
+Dim_12=send_reg_Info
+Dim_13=UC1_LogInOut
+Dim_14=UC2_Search_Flight
+Dim_15=UC3_Bill_Ticket
+Dim_16=UC4_View_Bills
+Dim_17=UC5_Del_bill
+Dim_18=UC6_Register
+LikeMode=0
+
+[AdditionalFilter1]
 DimensionType=Continuous
 InternalDimName=End Time
 Dimension=Scenario Elapsed Time
